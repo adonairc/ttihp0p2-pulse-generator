@@ -13,7 +13,7 @@ This ASIC is a simple TTL pulse generator with 16 pre-programmed pulse sequences
 
 ## How to test
 
-Explain how to use your project
+To test the ASIC select the desired pulse sequence using 4-bits on pins ui[0:3]. The TTL pulse output is on pin uo[0].
 
 ## External hardware
 
