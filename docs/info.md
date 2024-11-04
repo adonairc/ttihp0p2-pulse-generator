@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This ASIC is a simple TTL pulse generator with 16 pre-programmed pulse sequences. 
 
 ## How to test
 
