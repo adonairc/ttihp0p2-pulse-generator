@@ -4,7 +4,6 @@
  */
 
 `default_nettype none
-`include "ttl_pulse_generator.v"
 
 module tt_um_pulse_generator (
     input  wire [7:0] ui_in,    // First 4-bit input to select the pulse sequence
