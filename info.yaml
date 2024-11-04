@@ -18,21 +18,22 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "top.v"
+    - "ttl_pulse_generator.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "Sequence Select bit 0"
+  ui[1]: "Sequence Select bit 1"
+  ui[2]: "Sequence Select bit 2"
+  ui[3]: "Sequence Select bit 3"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "TTL output"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
